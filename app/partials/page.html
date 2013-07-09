@@ -1,0 +1,8 @@
+<div data-ng-controller="ps.controllers.Presentation">
+  <header>
+    <a href="#/page/{{ next }}" ng-show="hasNext">Next</a>
+    <a href="#/page/{{ previous }}" ng-show="hasPrevious">Previous</a>
+  </header>
+  <div id="content" data-ng-bind-html-unsafe="content">
+  </div>
+</div>

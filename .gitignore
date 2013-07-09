@@ -1,0 +1,6 @@
+*.swp
+*.swa
+*.swo
+app/lib
+app/css
+node_modules
