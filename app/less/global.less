@@ -1,0 +1,45 @@
+@import 'colors.less';
+
+body {
+  font-family: 'Arial';
+  font-size: 26px;
+}
+
+a {
+  color: @green;
+  text-decoration: none;
+  padding: 3px 10px 3px;
+
+  &:hover {
+    color: @blue;
+  }
+
+  &:visited, &:hover, &:active {
+    text-decoration: none;
+  }
+}
+
+header {
+  height: 20px;
+  font-size: 0.6em;
+  border-bottom: 1px dashed @grey;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  &:after {
+    clear: both;
+  }
+
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+}
