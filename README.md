@@ -13,7 +13,9 @@ A simple app to create and share presentations. Checkout this [example](http://p
 - reference them in presentation order in `app/js/pages.js`
 - `npm install`
 - `foreman start`
+- browse your presentation at [http://localhost:5000/](http://localhost:5000/)
 
 ##Next Steps
+- deploy to heroku.
 - create different branches for different presentation styles
 - profit.
