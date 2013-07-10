@@ -1,8 +1,8 @@
 <div data-ng-controller="ps.controllers.Presentation">
-  <header class="clearfix">
-    <a class="left" href="#/page/{{ previous }}" ng-show="hasPrevious">Previous</a>
-    <a class="right" href="#/page/{{ next }}" ng-show="hasNext">Next</a>
+  <header id="navigation" class="clearfix">
+    <a id="previous" class="left" href="#/page/{{ previous }}" data-ng-show="hasPrevious">Previous</a>
+    <a id="next" class="right" href="#/page/{{ next }}" data-ng-show="hasNext">Next</a>
   </header>
-  <div id="content" data-ng-bind-html-unsafe="content">
+  <div id="content" data-ng-bind-html-unsafe="content" style="opacity: 0;">
   </div>
 </div>
