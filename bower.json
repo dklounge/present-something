@@ -2,6 +2,6 @@
   "name": "present-something",
   "version": "0.0.1",
   "dependencies": {
-    "angular": "~1.0.7"
+    "angular-latest": "v1.1.5"
   }
 }
