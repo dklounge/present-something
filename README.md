@@ -1,6 +1,6 @@
 #Present Something
 
-A simple app to create and share presentations.
+A simple app to create and share presentations. Checkout this [example](http://present-something.herokuapp.com/)
 
 ##Requirements
 - [node.js](http://nodejs.org/)
