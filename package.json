@@ -12,8 +12,11 @@
     "css",
     "javascript"
   ],
-  "devDependencies": {
+  "dependencies": {
     "bower": "*",
+    "http-server": "*"
+  },
+  "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-karma": "~0.4.4",
     "grunt-contrib-less": "~0.5.1",
