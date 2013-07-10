@@ -4,7 +4,8 @@
   "description": "A simple HTML presentation tool.",
   "main": "index.js",
   "scripts": {
-    "test": "grunt karma"
+    "test": "grunt karma",
+    "postinstall": "./node_modules/bower/bin/bower install; ./node_modules/grunt-cli/bin/grunt run"
   },
   "repository": "",
   "keywords": [
@@ -14,9 +15,8 @@
   ],
   "dependencies": {
     "bower": "*",
-    "http-server": "*"
-  },
-  "devDependencies": {
+    "http-server": "*",
+    "grunt-cli": "*",
     "grunt": "~0.4.1",
     "grunt-karma": "~0.4.4",
     "grunt-contrib-less": "~0.5.1",
